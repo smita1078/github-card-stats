@@ -1,0 +1,13 @@
+{
+  "name": "contrib-card",
+  "version": "0.1.0",
+  "description": "Dynamically rendered SVG card of your contributions to a specific open-source repo — embeddable in any GitHub README.",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "preview": "node scripts/preview.js"
+  },
+  "license": "MIT"
+}

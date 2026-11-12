@@ -1,0 +1,26 @@
+{
+  "user": "sampledev",
+  "rows": [
+    {
+      "repo": "checkstyle/checkstyle",
+      "mergedPRs": 31,
+      "closedIssues": 23,
+      "commits": 118,
+      "firstContribution": "2025-03-04T10:15:00Z"
+    },
+    {
+      "repo": "checkstyle/contribution",
+      "mergedPRs": 7,
+      "closedIssues": 4,
+      "commits": 19,
+      "firstContribution": "2025-06-18T08:00:00Z"
+    },
+    {
+      "repo": "apache/maven-doxia",
+      "mergedPRs": 3,
+      "closedIssues": 1,
+      "commits": 6,
+      "firstContribution": "2026-02-09T12:30:00Z"
+    }
+  ]
+}

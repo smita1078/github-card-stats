@@ -1,0 +1,28 @@
+<svg width="480" height="208" viewBox="0 0 480 208" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Open-source contributions by @sampledev">
+  <title>Open-source contributions by @sampledev</title>
+  <rect x="0.5" y="0.5" width="479" height="207" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+  <text x="22" y="34" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="16" font-weight="600" fill="#0b0b0b">@sampledev</text>
+  <text x="22" y="52" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="12" fill="#52514e">Open-source contributions</text>
+  <text x="320" y="66" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="10.5" fill="#898781">PRs merged</text>
+    <text x="390" y="66" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="10.5" fill="#898781">Issues</text>
+    <text x="458" y="66" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="10.5" fill="#898781">Commits</text>
+  
+    
+    <text x="22" y="89" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="13" font-weight="600" fill="#0b0b0b">checkstyle/checkstyle</text>
+    <text x="22" y="103" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="10" fill="#898781">since Mar 2025</text>
+      <text x="320" y="94" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="15" font-weight="600" style="font-variant-numeric: tabular-nums" fill="#0b0b0b">31</text>
+      <text x="390" y="94" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="15" font-weight="600" style="font-variant-numeric: tabular-nums" fill="#0b0b0b">23</text>
+      <text x="458" y="94" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="15" font-weight="600" style="font-variant-numeric: tabular-nums" fill="#0b0b0b">118</text>
+    <line x1="22" y1="110" x2="458" y2="110" stroke="#e1e0d9" stroke-width="1"/>
+    <text x="22" y="129" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="13" font-weight="600" fill="#0b0b0b">checkstyle/contribution</text>
+    <text x="22" y="143" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="10" fill="#898781">since Jun 2025</text>
+      <text x="320" y="134" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="15" font-weight="600" style="font-variant-numeric: tabular-nums" fill="#0b0b0b">7</text>
+      <text x="390" y="134" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="15" font-weight="600" style="font-variant-numeric: tabular-nums" fill="#0b0b0b">4</text>
+      <text x="458" y="134" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="15" font-weight="600" style="font-variant-numeric: tabular-nums" fill="#0b0b0b">19</text>
+    <line x1="22" y1="150" x2="458" y2="150" stroke="#e1e0d9" stroke-width="1"/>
+    <text x="22" y="169" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="13" font-weight="600" fill="#0b0b0b">apache/maven-doxia</text>
+    <text x="22" y="183" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="10" fill="#898781">since Feb 2026</text>
+      <text x="320" y="174" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="15" font-weight="600" style="font-variant-numeric: tabular-nums" fill="#0b0b0b">3</text>
+      <text x="390" y="174" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="15" font-weight="600" style="font-variant-numeric: tabular-nums" fill="#0b0b0b">1</text>
+      <text x="458" y="174" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="15" font-weight="600" style="font-variant-numeric: tabular-nums" fill="#0b0b0b">6</text>
+</svg>

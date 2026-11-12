@@ -1,0 +1,4 @@
+node_modules/
+.vercel/
+card*.png
+.DS_Store

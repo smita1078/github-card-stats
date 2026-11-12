@@ -1,0 +1,18 @@
+{
+  "user": "sampledev",
+  "repo": "checkstyle/checkstyle",
+  "mergedPRs": 31,
+  "openPRs": 2,
+  "closedIssues": 23,
+  "commits": 118,
+  "firstContribution": "2025-03-04T10:15:00Z",
+  "areas": {
+    "top": [
+      { "name": "xdocs", "count": 12 },
+      { "name": "checks", "count": 8 },
+      { "name": "infrastructure", "count": 5 }
+    ],
+    "otherCount": 4,
+    "labeledPRs": 29
+  }
+}
