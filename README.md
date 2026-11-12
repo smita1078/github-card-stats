@@ -32,9 +32,13 @@ One card listing several repos — **the URL is the configuration**: list exactl
 
 Each row shows PRs merged, issues closed, commits, and when you started contributing there. To change which repos appear, just edit the list in your README — no redeploy, no config file.
 
-## Deploy (free, ~3 minutes)
+## Deploy your own (free, ~3 minutes)
 
-1. Push this folder to a GitHub repo.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsmita1078%2Fcontrib-card)
+
+Everyone runs their **own** free instance — your cards, your rate limits, no dependency on anyone else's server.
+
+1. Click the button above (or push this folder to a GitHub repo and import it at vercel.com).
 2. Go to [vercel.com](https://vercel.com) → **Add New Project** → import the repo → **Deploy** (no configuration needed; `api/card.js` is auto-detected as a serverless function).
 3. Recommended: in Vercel → Project → Settings → Environment Variables, add `GITHUB_TOKEN` = a [fine-grained personal access token](https://github.com/settings/tokens) with **public repo read-only** access. Without it you share the unauthenticated GitHub rate limit (10 searches/min per IP), which is fine for testing but not for real traffic.
 
