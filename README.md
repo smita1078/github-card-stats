@@ -66,7 +66,7 @@ Zero dependencies — plain Node 18+.
 | Stat | Source |
 |---|---|
 | PRs merged / open | Search API: `repo:R author:U is:pr is:merged` / `is:open` |
-| Issues closed | Search API: `repo:R assignee:U is:issue is:closed` |
+| Issues solved | max of three signals: issues assigned to you and closed; unique issues referenced by your merged PRs ("Issue #N:" titles, `fixes/closes/resolves #N`); issues you authored that are now closed |
 | Commits | `GET /repos/R/commits?author=U&per_page=1` → `Link` header's last-page number |
 | Lines added | `GET /repos/R/stats/contributors` (lazily computed by GitHub; first hit may briefly return nothing — a warm cache fixes this) |
 | Since | earliest PR via `sort=created&order=asc` |
