@@ -3,7 +3,9 @@ import { renderMultiCard, renderErrorCard } from '../lib/render.js';
 
 const REPO_RE = /^[\w.-]+\/[\w.-]+$/;
 const USER_RE = /^[\w-]+$/;
-const MAX_REPOS = 5;
+// 8 repos ≈ 24 search calls per uncached render — fits the authenticated
+// search limit (30/min). Raise further only with caching in mind.
+const MAX_REPOS = 8;
 
 /**
  * Multi-repo card — the URL is the config: list the repos you want, in the

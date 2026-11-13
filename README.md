@@ -9,6 +9,7 @@ A dynamically rendered SVG card of **your contributions to a specific open-sourc
 - PRs merged / PRs open (authored by you in that repo)
 - Issues closed (assigned to you)
 - Total commits
+- Lines added (from GitHub's contributor stats — covers a repo's top 100 contributors; "—" outside that)
 - "Contributing since" (your first PR there)
 - Top areas — a segmented bar of the labels on your merged PRs
 
@@ -67,6 +68,7 @@ Zero dependencies — plain Node 18+.
 | PRs merged / open | Search API: `repo:R author:U is:pr is:merged` / `is:open` |
 | Issues closed | Search API: `repo:R assignee:U is:issue is:closed` |
 | Commits | `GET /repos/R/commits?author=U&per_page=1` → `Link` header's last-page number |
+| Lines added | `GET /repos/R/stats/contributors` (lazily computed by GitHub; first hit may briefly return nothing — a warm cache fixes this) |
 | Since | earliest PR via `sort=created&order=asc` |
 | Top areas | labels aggregated over your 100 most recent merged PRs |
 
