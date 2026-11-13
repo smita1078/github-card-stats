@@ -74,12 +74,6 @@ Zero dependencies — plain Node 18+.
 
 GitHub READMEs only allow images (served through GitHub's camo proxy) — no iframes or scripts — which is why the card is a server-rendered static SVG.
 
-## Roadmap ideas
-
-- `?issues=author` switch for projects that don't use assignees
-- Repo-side card for maintainers: live good-first-issue count, time-to-first-review
-- Per-area drill-down page the card links to
-
 ## License
 
 MIT
