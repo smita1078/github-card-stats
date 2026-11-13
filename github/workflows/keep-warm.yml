@@ -1,0 +1,12 @@
+name: keep-warm
+on:
+  schedule:
+    - cron: '23 */5 * * *'
+  workflow_dispatch:
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          curl -s -o /dev/null "https://github-card-stats.vercel.app/api/card?user=smita1078&repo=checkstyle/checkstyle&v=8"
+          curl -s -o /dev/null "https://github-card-stats.vercel.app/api/multi?user=smita1078&repos=checkstyle/checkstyle,checkstyle/contribution,checkstyle/checkstyle-files-generator&v=8"
