@@ -20,6 +20,12 @@ export default async function handler(req, res) {
 
   try {
     const stats = await fetchStats({ user, repo, token: process.env.GITHUB_TOKEN });
+    if (req.query?.debug === '1') {
+      res.setHeader('Content-Type', 'application/json; charset=utf-8');
+      res.setHeader('Cache-Control', 'no-store');
+      res.status(200).send(JSON.stringify(stats, null, 2));
+      return;
+    }
     // Cache on the CDN for 6h; serve stale while revalidating so embeds stay fast.
     res.setHeader('Cache-Control', 'public, max-age=0, s-maxage=21600, stale-while-revalidate=86400');
     res.status(200).send(renderCard(stats, { theme }));
