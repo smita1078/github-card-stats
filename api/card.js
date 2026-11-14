@@ -27,7 +27,7 @@ export default async function handler(req, res) {
       return;
     }
     // Cache on the CDN for 6h; serve stale while revalidating so embeds stay fast.
-    res.setHeader('Cache-Control', 'public, max-age=0, s-maxage=21600, stale-while-revalidate=86400');
+    res.setHeader('Cache-Control', 'public, max-age=0, s-maxage=1800, stale-while-revalidate=86400');
     res.status(200).send(renderCard(stats, { theme }));
   } catch (err) {
     res.setHeader('Cache-Control', 'public, max-age=0, s-maxage=300');
