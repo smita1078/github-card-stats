@@ -36,7 +36,10 @@ export default async function handler(req, res) {
 
   try {
     const data = await fetchMulti({ user, repos, token: process.env.GITHUB_TOKEN });
-    res.setHeader('Cache-Control', 'public, max-age=0, s-maxage=21600, stale-while-revalidate=86400');
+    const broken = data.rows.some((r) => (r._errors?.length ?? 0) > 0);
+    res.setHeader('Cache-Control', broken
+      ? 'public, max-age=0, s-maxage=120'
+      : 'public, max-age=0, s-maxage=1800, stale-while-revalidate=86400');
     res.status(200).send(renderMultiCard(data, { theme }));
   } catch (err) {
     res.setHeader('Cache-Control', 'public, max-age=0, s-maxage=300');
