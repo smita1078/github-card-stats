@@ -13,4 +13,5 @@ jobs:
         run: |
           sleep 90   # on push: give Vercel time to finish deploying first
           curl -s -o /dev/null -w "card: %{http_code} %{time_total}s\n" "https://github-card-stats.vercel.app/api/card?user=smita1078&repo=checkstyle/checkstyle&v=8"
+          sleep 65
           curl -s -o /dev/null -w "multi: %{http_code} %{time_total}s\n" "https://github-card-stats.vercel.app/api/multi?user=smita1078&repos=checkstyle/checkstyle,checkstyle/contribution,checkstyle/checkstyle-files-generator&v=8"
